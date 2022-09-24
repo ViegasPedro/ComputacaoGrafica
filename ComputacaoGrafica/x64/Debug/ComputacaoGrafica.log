@@ -1,0 +1,77 @@
+﻿  Source.cpp
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Face.h(14,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Group.h(22,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Group.h(27,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Group.h(33,1): warning C4267: '+=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Mesh.h(17,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(34,51): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(34,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(34,45): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(85,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(86,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(87,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(88,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(89,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(90,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(93,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(95,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(97,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(99,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(101,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\ObjReader.h(103,28): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Source.cpp(29,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Source.cpp(30,12): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Source.cpp(34,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Source.cpp(35,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Source.cpp(37,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Source.cpp(38,11): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\ComputacaoGrafica\Source.cpp(251,22): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  ComputacaoGrafica.vcxproj -> C:\Users\pedro\Desktop\Unisinos\computação gráfica\repository\ComputacaoGrafica\x64\Debug\ComputacaoGrafica.exe
