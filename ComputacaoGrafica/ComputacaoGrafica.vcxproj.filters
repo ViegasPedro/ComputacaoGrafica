@@ -45,6 +45,9 @@
     <ClCompile Include="ObjReader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Shader2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Face.h">
@@ -68,6 +71,9 @@
     <ClInclude Include="ObjReader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Shader2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="core.frag">
@@ -79,6 +85,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="core.vert">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="fragment_color.frag">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\ogl-master\tutorial07_model_loading\TextureFragmentShader.fragmentshader">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\..\ogl-master\tutorial07_model_loading\TransformVertexShader.vertexshader">
       <Filter>Shaders</Filter>
     </None>
   </ItemGroup>

@@ -13,4 +13,8 @@ public:
     int verticesCount() {
         return vertices.size();
     }
+
+    void addVerticeId(int idVertice) {
+        this->vertices.push_back(idVertice);
+    }
 };

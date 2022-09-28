@@ -27,6 +27,10 @@ public:
 		return vbos.size() - 1;
 	}
 
+	void setVAO(GLuint* vao) {
+		this->vao = *vao;
+	}
+
 	int numVertices() {
 		int sum = 0;
 		for (auto& face : faces) {
@@ -34,6 +38,7 @@ public:
 		}
 		return sum;
 	}
+
 
 };
 

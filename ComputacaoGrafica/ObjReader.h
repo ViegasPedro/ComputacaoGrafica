@@ -2,7 +2,7 @@
 #include "Obj3D.h"
 
 class ObjReader {
-
+    /*
 public:
 
     Obj3D* readObjFromFile(std::string fileName) {
@@ -121,7 +121,7 @@ private:
         }
 
         group->addFace(face);
-    }
+    }*/
 };
 
 

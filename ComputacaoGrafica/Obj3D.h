@@ -1,7 +1,7 @@
 #pragma once
 #include "Camera.h"
 #include "Mesh.h"
-#include "Shader.h"
+#include "Shader2.h"
 
 class Obj3D {
 public:
@@ -20,28 +20,38 @@ public:
     bool reflected = false;
     bool isProjectile = false;
 
-    void draw(Camera* camera, Shader* shader) {
-
+    void draw(Camera* camera, Shader2* shader) {
+        
         if (destroyed) {
             return;
         }
-
-        glm::mat4 projection = camera->getProjectionMatrix();
+        // Get a handle for our "MVP" uniform
+        GLuint MatrixID = glGetUniformLocation(shader->ID, "MVP");
+        
+        glm::mat4 projection(1.0f);
+        projection = glm::perspective(glm::radians(camera->zoom), (float)800 / (float)600, 0.1f, 100.0f);
+        //glm::mat4 projection = camera->getProjectionMatrix();
         glm::mat4 view = camera->getViewMatrix();
-        glUniformMatrix4fv(glGetUniformLocation(shader->program, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
-        glUniformMatrix4fv(glGetUniformLocation(shader->program, "view"), 1, GL_FALSE, glm::value_ptr(view));
+        //glUniformMatrix4fv(glGetUniformLocation(shader->ID, "projection"), 1, GL_FALSE, glm::value_ptr(projection));
+        //glUniformMatrix4fv(glGetUniformLocation(shader->ID, "view"), 1, GL_FALSE, glm::value_ptr(view));
 
         glm::mat4 model = glm::mat4(1.0f);
         model = glm::translate(model, *position);
         model = glm::scale(model, glm::vec3(scale, scale, scale));
 
-        glUniformMatrix4fv(glGetUniformLocation(shader->program, "model"), 1, GL_FALSE, glm::value_ptr(model));
+        //glUniformMatrix4fv(glGetUniformLocation(shader->ID, "model"), 1, GL_FALSE, glm::value_ptr(model));
 
-        for (int j = 0; j < mesh->groups.size(); ++j) {
-            Group* group = mesh->groups[j];
+        glm::mat4 MVP = projection * view * model;
+        // Send our transformation to the currently bound shader, 
+        // in the "MVP" uniform
+        glUniformMatrix4fv(MatrixID, 1, GL_FALSE, &MVP[0][0]);
+        shader->setMatrix4fv("MVP", MVP);
+
+        for (Group* group : mesh->groups) {
             glBindVertexArray(group->vao);
             glDrawArrays(GL_TRIANGLES, 0, group->numVertices());
         }
+        
     }
 
     float getRadius() {

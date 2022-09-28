@@ -149,6 +149,7 @@
     <ClCompile Include="Obj3D.cpp" />
     <ClCompile Include="ObjReader.cpp" />
     <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="Shader2.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -159,13 +160,17 @@
     <ClInclude Include="Obj3D.h" />
     <ClInclude Include="ObjReader.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="Shader2.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="core.frag" />
     <Text Include="Cubo.mtl" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\ogl-master\tutorial07_model_loading\TextureFragmentShader.fragmentshader" />
+    <None Include="..\..\ogl-master\tutorial07_model_loading\TransformVertexShader.vertexshader" />
     <None Include="core.vert" />
+    <None Include="fragment_color.frag" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
